@@ -1,0 +1,15 @@
+{
+    "Path" : ".\\Bin\\NVIDIA-cc65\\ccminer_cuda65.exe",
+    "ExtractionPath" : ".\\Bin\\NVIDIA-cc65\\",
+    "Uri" : "https://github.com/djm34/ccminer-sp-neoscrypt/releases/download/1.5.79-djm34-edition/binaries.zip",
+    "Types" : ["NVIDIA"],
+    "Arguments" : "-o #PROTOCOL#://#SERVER#:#PORT# -u #LOGIN# -p #PASSWORD# -R 10 -r 4 -b #APIPORT# -d #DEVICES# #ALGORITHMPARAMETERS# ",
+    "API" : "Ccminer",
+    "APIPort" : 3341,
+    "Dualmining":false,
+    "Algorithms": [
+                    {"neoscrypt":"-a neoscrypt"}
+                    
+                  ]
+    
+}
